@@ -2,6 +2,19 @@
 
 This demo showcases how to use the Loop Component in Langflow to create an agentic RAG system. The system processes job listings data and demonstrates iterative refinement through looping.
 
+
+## ATTENTION
+
+If you are facing issues with the structured output component, depending on the version, you will have to update the `build_structured_output` method as follows:
+
+```python
+    def build_structured_output(self) -> Data:
+        output = self.build_structured_output_base()
+        if isinstance(output, list) and len(output) > 0:
+            return Data(data=output[0])
+        return Data(data=output)
+```
+
 ### Files Included
 - `hn_jobs copy.csv`: Sample job listings data
 - `Loop Component & Agentic RAG Demo.json`: Langflow flow configuration file
