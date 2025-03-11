@@ -2,9 +2,11 @@
 
 ## Langflow components code
 
-- Astra DB Tool code: [astradb.py]
-- Astra DB CQL Tool code: [astradb_cql.py]
+Create a custom component and use the code from the following files:
+
+- Astra DB Tool code: (./astradb.py)
+- Astra DB CQL Tool code: (./astradb_cql.py)
 
 ## Transactional data
 
-transactions.sql
+Run the script from the file (transactions.sql) to create the table, index and insert some data into the Astra DB table.
