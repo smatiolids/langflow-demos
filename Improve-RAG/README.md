@@ -1,5 +1,7 @@
 # Improve RAG Livestream
 
+Youtube URL: https://www.youtube.com/watch?v=dYBAZ9oa5y0
+
 ## Langflow components code
 
 Create a custom component and use the code from the following files:
