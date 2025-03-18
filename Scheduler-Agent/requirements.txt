@@ -1,0 +1,2 @@
+astrapy
+python-dotenv
