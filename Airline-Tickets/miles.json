@@ -1,0 +1,111 @@
+[
+    {
+      "date": "2025-01-05",
+      "description": "Miles credited - Credit Card",
+      "type": "credit",
+      "source": "credit_card",
+      "miles": 1800,
+      "monetary_amount": null,
+      "balance": 11800
+    },
+    {
+      "date": "2025-01-12",
+      "description": "Miles credited - Flight taken CGH > BSB",
+      "type": "credit",
+      "source": "flight",
+      "miles": 1200,
+      "monetary_amount": null,
+      "balance": 13000
+    },
+    {
+      "date": "2025-01-20",
+      "description": "Ticket redemption - BSB > FLN (miles + cash)",
+      "type": "debit",
+      "source": "ticket_redemption",
+      "miles": -6000,
+      "monetary_amount": 89.00,
+      "balance": 7000
+    },
+    {
+      "date": "2025-01-25",
+      "description": "Miles credited - Bonus: New Year Promotion",
+      "type": "credit",
+      "source": "bonus",
+      "miles": 1000,
+      "monetary_amount": null,
+      "balance": 8000
+    },
+    {
+      "date": "2025-02-02",
+      "description": "Miles received via transfer from Account #8429",
+      "type": "credit",
+      "source": "transfer_in",
+      "miles": 3000,
+      "monetary_amount": null,
+      "balance": 11000
+    },
+    {
+      "date": "2025-02-10",
+      "description": "Miles credited - Credit Card",
+      "type": "credit",
+      "source": "credit_card",
+      "miles": 2200,
+      "monetary_amount": null,
+      "balance": 13200
+    },
+    {
+      "date": "2025-02-18",
+      "description": "Ticket redemption - FLN > CGH (miles + cash)",
+      "type": "debit",
+      "source": "ticket_redemption",
+      "miles": -7000,
+      "monetary_amount": 129.00,
+      "balance": 6200
+    },
+    {
+      "date": "2025-02-25",
+      "description": "Miles transferred to Account #1290",
+      "type": "debit",
+      "source": "transfer_out",
+      "miles": -1500,
+      "monetary_amount": null,
+      "balance": 4700
+    },
+    {
+      "date": "2025-03-03",
+      "description": "Miles expired due to inactivity",
+      "type": "debit",
+      "source": "expiration",
+      "miles": -2000,
+      "monetary_amount": null,
+      "balance": 2700
+    },
+    {
+      "date": "2025-03-15",
+      "description": "Miles credited - Flight taken CNF > GIG",
+      "type": "credit",
+      "source": "flight",
+      "miles": 1700,
+      "monetary_amount": null,
+      "balance": 4400
+    },
+    {
+      "date": "2025-03-22",
+      "description": "Miles credited - Credit Card",
+      "type": "credit",
+      "source": "credit_card",
+      "miles": 2400,
+      "monetary_amount": null,
+      "balance": 6800
+    },
+    {
+      "date": "2025-03-30",
+      "description": "Ticket redemption - GIG > POA (miles + cash)",
+      "type": "debit",
+      "source": "ticket_redemption",
+      "miles": -5500,
+      "monetary_amount": 119.90,
+      "balance": 1300
+    }
+  ]
+  

@@ -1,0 +1,3 @@
+astrapy
+python-dotenv
+cassandra-driver
