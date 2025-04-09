@@ -20,11 +20,20 @@ This is a Langflow Agent to help the customer service agent to answer questions 
 
 8. Update the .env file SCB file path
 
-9. Install dependencies: `pip install -r requirements.txt`
+9. Install dependencies: 
+```bash
+pip install -r requirements.txt
+```
 
-10. Load the miles transactions: `python load_miles.py`
+10. Load the miles transactions: 
+```bash
+python load_miles.py
+```
 
-11. Generate tickets: `python generate_tickets.py`
+11. Generate tickets: 
+```bash
+python generate_tickets.py
+```
 
 12. Install Langflow 1.3 
 ```bash
